@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linda Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar shadow-sm fixed-top">
+    <div class="container text-start ps-3" data-aos="fade-right" data-aos-duration="1500">
+      <a class="navbar-brand fw-bold text-dark" href="#">
+        <img src="img/istockphoto-1300845620-612x612-removebg-preview.png" alt="avatar" width="35" class="me-2">
+        Linda Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link fw-bold text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold text-white" href="#skill">Skill</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold text-white" href="#project">Project</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold text-white" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-5 text-start ps-3" data-aos="fade-right" data-aos-duration="1500">
+      <div class="text-start ps-3">
+        <h1 class="display-1 fw-bold pink-text custom-font">Hi <span class="wave">👋</span>, I am Oktavia <br>Linda Sari</h1>
+       <p class="mt-3 fw-bold fs-5 text-justify">
+         "This portfolio highlights my work in web development and<br>UI/UX design.
+         I focus on creating digital solutions that combine<br> creativity, functionality,
+         and great user experiences."
+       </p>
+        <a href="#about" class="btn btn-pink mt-4" id="hireBtn">Here me</a>
+      </div>
+      <div class="col-md-6" style="margin-right: -230px;">
+        <img src="img/Gambar WhatsApp 2025-05-28 pukul 07.35.51_61bedd3a.jpg" alt="Linda Sari" class="img-fluid rounded-circle profile-img" width="340">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section slide-in-left">
+    <div class="container">
+      <h2 class="text-center about-title mb-5 text-uppercase">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 d-flex justify-content-center position-relative">
+          <div class="pink-box"></div>
+          <img src="img/Gambar WhatsApp 2025-05-28 pukul 07.35.51_61bedd3a.jpg" alt="Oktavia Linda Sari" class="img-fluid about-img">
+        </div>
+        <div class="col-md-8">
+          <p class="about-text fw-bold">
+            Hello, I’m Oktavia Linda Sari — a vocational high school student majoring in Software and Game Development (PPLG).
+            I have a strong passion for learning technology, especially in designing attractive and functional websites.
+            With skills in HTML, CSS, JavaScript, and visual design using Figma, I continuously explore creative ideas through personal projects.
+            I’m particularly interested in user interface (UI) design and web development, and I keep learning through real-world experiences and hands-on projects.
+            A love for learning and persistence are the main assets that keep me moving forward.
+          </p>
+          <a href="#skill" class="btn btn-skill mt-4">Skill</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skill" class="skill-section">
+    <div class="container text-start ps-3" data-aos="fade-down" data-aos-duration="1500">
+      <h1 class="skill-title">My Skill Project</h1>
+      <div class="row g-4">
+        <!-- Designer -->
+        <div class="col-md-4 d-flex">
+          <div class="card w-100">
+            <h3>Designer</h3>
+            <p class="intro-text">I craft intuitive layouts, seamless user journeys, and visually engaging experiences. Simplicity and clarity guide every design I make.</p>
+            <p class="section-title">*Things I enjoy designing*:</p>
+            <p class="skill-list">UX, UI, Web, Apps, Logos</p>
+            <p class="section-title">Design Tools:</p>
+            <ul class="tool-list">
+              <li>Affinity Designer</li>
+              <li>Figma</li>
+              <li>Pen & Paper</li>
+              <li>Sketch</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Developer -->
+        <div class="col-md-4 d-flex">
+          <div class="card w-100">
+            <h3>Developer</h3>
+            <p class="intro-text">I build interactive websites from the ground up, combining code and creativity to deliver smooth, responsive user experiences.</p>
+            <p class="section-title">Languages I speak:</p>
+            <p class="skill-list">HTML, CSS, JavaScript, Git, Sass</p>
+            <p class="section-title">Dev Tools:</p>
+            <ul class="tool-list">
+              <li>Bootstrap</li>
+              <li>Netlify</li>
+              <li>Tailwind CSS</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- UI/UX -->
+        <div class="col-md-4 d-flex">
+          <div class="card w-100">
+            <h3>UI/UX</h3>
+            <p class="intro-text">I design with users in mind — crafting intuitive, accessible, and visually pleasing experiences that solve real problems and feel effortless to use.</p>
+            <p class="section-title">*Things I enjoy designing*:</p>
+            <p class="skill-list">User Experience, Prototypes, Design Systems</p>
+            <p class="section-title">Design Tools:</p>
+            <ul class="tool-list">
+              <li>Figma</li>
+              <li>Adobe XD</li>
+              <li>Sketch</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!--project-->
+  <section id="project"></section>
+  <body style="background-color: #fce4ec;">
+  <div class="container py-5 text-start ps-3" data-aos="fade-left" data-aos-duration="1500">
+    <h2 class="text-center fw-bold mb-5">My Project</h2>
+    <div class="row justify-content-center g-4">
+      <!-- webite -->
+      <div class="col-12 col-md-6">
+        <div class="card text-center p-3 custom-card">
+          <h5 class="fw-bold mb-2">Website Beach</h5>
+          <img src="img/lorem ipsum.jpg" class="img-fluid rounded" alt="Website Beach">
+          <div class="text-center">
+            <a href="https://linda658.github.io/tugas-lorem/" class="btn btn-visit mt-3">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Historical Collaboration Website -->
+      <div class="col-12 col-md-6">
+        <div class="card text-center p-3 custom-card">
+          <h5 class="fw-bold mb-2">Historical Collaboration Website</h5>
+          <img src="img/kolaborasi 1.jpg" class="img-fluid rounded" alt="Historical Collaboration Website">
+          <div class="text-center">
+           <a href="https://linda658.github.io/web-collaboration/" class="btn btn-visit mt-3">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Website Travelling -->
+      <div class="col-12 col-md-6">
+        <div class="card text-center p-3 custom-card">
+          <h5 class="fw-bold mb-2">Website Travelling</h5>
+          <img src="img/travel.jpg" class="img-fluid rounded" alt="Website Travelling">
+          <div class="text-center">
+           <a href="https://onaairoo.github.io/linda.github.io/" class="btn btn-visit mt-3">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Website E-Commerce -->
+      <div class="col-12 col-md-6">
+        <div class="card text-center p-3 custom-card">
+          <h5 class="fw-bold mb-2">Website E-Commerce</h5>
+          <img src="img/E-commerce.jpg" class="img-fluid rounded" alt="Website E-Commerce">
+          <div class="text-center">
+           <a href="https://onaairoo.github.io/oktavia.github.io/" class="btn btn-visit mt-3">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Website Hospital -->
+      <div class="col-12 col-md-6">
+        <div class="card text-center p-3 custom-card">
+          <h5 class="fw-bold mb-2">Website Hospital</h5>
+          <img src="img/hospital.jpg" class="img-fluid rounded" alt="Website Hospital">
+          <div class="text-center">
+           <a href="https://linda658.github.io/web-hospitall/" class="btn btn-visit mt-3">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Website Ticket Concert -->
+      <div class="col-12 col-md-6">
+        <div class="card text-center p-3 custom-card">
+          <h5 class="fw-bold mb-2">Website Ticket Concert</h5>
+          <img src="img/Cuplikan layar 2025-05-26 204109.jpg" class="img-fluid rounded" alt="Website Ticket Concert">
+         <div class="text-center">
+          <a href="https://linda658.github.io/web-ticket-concert/" class="btn btn-visit mt-3">Visit</a>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Contact-->
+<section id="contact">
+  <div class="gradient-background px-5 py-5" data-aos="fade-up" data-aos-duration="1500">
+    <h2 class="contact-title text-start mb-4">Contact Me</h2>
+
+    <div class="container-fluid">
+      <div class="row align-items-start">
+        <!-- Form di kiri -->
+        <div class="col-lg-6 mb-4">
+          <div class="form-container">
+            <form onsubmit="handleSubmit(event)">
+              <div class="form-group mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Name:">
+              </div>
+              <div class="form-group mb-3">
+                <input type="text" class="form-control" id="phone" placeholder="Phone Number:">
+              </div>
+              <div class="form-group mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Email:">
+              </div>
+              <div class="form-group mb-3">
+                <textarea class="form-control" id="message" rows="5" placeholder="Message:"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn-send">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Maps di kanan -->
+        <div class="col-lg-6">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.6435148704236!2d110.5155006!3d-7.3937821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7b006269d197%3A0xe333baae3a4db8ec!2sDarmanto%20home!5e0!3m2!1sid!2sid!4v1748268515208!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer-top text-start ps-3" data-aos="fade-right" data-aos-duration="1500">
+    <div class="container">
+      <div class="row text-start text-md-left">
+        <div class="col-md-4 footer-column mb-4">
+          <h6>Sosmed:</h6>
+          <div class="icon-text">
+            <img src="img/lg_inst-removebg-preview.png" alt="Instagram">
+            <a href="https://www.instagram.com/y0ur.linda?igsh=bmlodGpyZHJ3Y2Ix" target="_blank">y0ur.linda</a>
+          </div>
+          <div class="icon-text">
+            <img src="img/png-transparent-logo-tiktok-thumbnail-removebg-preview.png" alt="TikTok">
+            <a href="https://www.tiktok.com/@xxolindaaa?is_from_webapp=1&sender_device=pc" target="_blank">xxolinda</a>
+          </div>
+        </div>
+
+        <div class="col-md-4 footer-column mb-4">
+          <h6>Additional Navigation:</h6>
+          <a href="#home" class="nav-link">∙› Home</a>
+          <a href="#about" class="nav-link">∙› About</a>
+          <a href="#skill" class="nav-link">∙› Skill</a>
+          <a href="#project" class="nav-link">∙› Project</a>
+          <a href="#contact" class="nav-link">∙› Contact</a>
+        </div>
+
+        <div class="col-md-4 footer-column mb-4">
+          <h6>Contact Us:</h6>
+          <div class="icon-text">
+             <img src="img/png-clipart-product-design-line-angle-email-logo-angle-white-thumbnail-removebg-preview.png" alt="Email">
+             lindaserioktavia4@gmail.com
+          </div>
+          <div class="icon-text">
+            <img src="img/37be65dc7346a8091095be92da59eb79-removebg-preview.png" alt="Phone">
+            +6289524019385
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-bottom text-center py-2">
+    © 2025 Oktavia Linda Sari. All rights reserved.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
